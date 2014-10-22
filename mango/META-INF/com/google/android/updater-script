@@ -1,5 +1,4 @@
 ui_print("Start");
-unmount("/system");
 ui_print("Wiping System Partition...");
 format("ext4", "EMMC", "/dev/block/platform/msm_sdcc.1/by-name/system", "0", "/system");
 mount("ext4", "EMMC", "/dev/block/platform/msm_sdcc.1/by-name/system", "/system");
