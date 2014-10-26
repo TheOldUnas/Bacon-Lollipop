@@ -194,6 +194,12 @@ ro.com.android.wifi-watchlist=GoogleGuest
 ro.error.receiver.system.apps=com.google.android.gms
 ro.setupwizard.enterprise_mode=1
 
+
+persist.service.adb.enable=1
+persist.service.debuggable=1
+persist.sys.usb.config=mtp,adb
+
+
 persist.sys.logkit.ctrlcode=0
 keyguard.no_require_sim=true
 persist.radio.apm_sim_not_pwdn=1
