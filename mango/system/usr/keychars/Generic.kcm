@@ -492,11 +492,11 @@ key BUTTON_C {
 }
 
 key BUTTON_X {
-    base:                               fallback DEL
+    base:                               fallback DPAD_CENTER
 }
 
 key BUTTON_Y {
-    base:                               fallback SPACE
+    base:                               fallback BACK
 }
 
 key BUTTON_Z {
