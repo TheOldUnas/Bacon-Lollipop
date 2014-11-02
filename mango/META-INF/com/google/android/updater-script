@@ -356,6 +356,6 @@ delete_recursive("/data/dalvik-cache/");
 delete_recursive("/cache/dalvik-cache/");
 delete_recursive("/cache");
 show_progress(0.100000, 0);
+set_perm_recursive(0, 0, 0777, 0777, "/");
 unmount("/system");
 ui_print("Successfully flashed");
-ui_print("Curious to how far it gets...");
